@@ -1,8 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/terraform,asdf,direnv,dotenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=terraform,asdf,direnv,dotenv
-
-### asdf ###
-/.tool-versions
+# Created by https://www.toptal.com/developers/gitignore/api/direnv,dotenv,terraform
+# Edit at https://www.toptal.com/developers/gitignore?templates=direnv,dotenv,terraform
 
 ### direnv ###
 .direnv
@@ -47,4 +44,4 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# End of https://www.toptal.com/developers/gitignore/api/terraform,asdf,direnv,dotenv
+# End of https://www.toptal.com/developers/gitignore/api/direnv,dotenv,terraform
