@@ -1,4 +1,4 @@
+ansible-base 2.10.17
 direnv 2.32.3
 terraform 1.5.1
 tflint 0.47.0
-ansible-base 2.10.17
