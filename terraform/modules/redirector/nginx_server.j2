@@ -1,0 +1,7 @@
+server {
+    listen 80;
+    # listen 443 ssl;
+
+    server_name {{ item }} www.{{ item}};
+    return 301 https://www.{{ primary_domain }}$request_uri;
+}
