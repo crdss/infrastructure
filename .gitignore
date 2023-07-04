@@ -1,5 +1,8 @@
-# Created by https://www.toptal.com/developers/gitignore/api/direnv,dotenv,terraform
-# Edit at https://www.toptal.com/developers/gitignore?templates=direnv,dotenv,terraform
+# Created by https://www.toptal.com/developers/gitignore/api/direnv,dotenv,terraform,ansible
+# Edit at https://www.toptal.com/developers/gitignore?templates=direnv,dotenv,terraform,ansible
+
+### Ansible ###
+*.retry
 
 ### direnv ###
 .direnv
@@ -44,4 +47,4 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# End of https://www.toptal.com/developers/gitignore/api/direnv,dotenv,terraform
+# End of https://www.toptal.com/developers/gitignore/api/direnv,dotenv,terraform,ansible
