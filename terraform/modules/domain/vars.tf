@@ -1,23 +1,23 @@
 variable "linode_access_token" {
   type        = string
   description = "Token that provides remote access to Linode"
-  sensitive = true
-  nullable = false
+  sensitive   = true
+  nullable    = false
 }
 
 variable "soa" {
   type = object({
-    type = string
+    type   = string
     domain = string
-    email = string
-    tags = list(string)
+    email  = string
+    tags   = list(string)
   })
 }
 
 variable "web_server" {
-  type = string
+  type        = string
   description = "IP address assigned to the A records for this domain"
-  nullable = false
+  nullable    = false
 }
 
 variable "mail_servers" {
@@ -27,8 +27,8 @@ variable "mail_servers" {
 }
 
 variable "google_site_verification" {
-  type = string
+  type        = string
   description = ""
-  sensitive = true
-  nullable = false
+  sensitive   = true
+  nullable    = false
 }

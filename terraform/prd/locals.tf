@@ -8,7 +8,7 @@ locals {
 
   redirector_instance = {
     label  = "redirector"
-    image = "linode/alpine3.18"
+    image  = "linode/alpine3.18"
     region = "us-east"
     type   = "g6-nanode-1"
 
@@ -16,9 +16,9 @@ locals {
   }
 
   primary_domain = {
-    domain_name = "centreregiondownsyndrome.org"
+    domain_name              = "centreregiondownsyndrome.org"
     google_site_verification = "gMnnceZYhC6SnRpPtlPLsmYfYqj2M7fVYnpwAZQF0p4"
-    cms_server_ip = "199.34.228.77"
+    cms_server_ip            = "199.34.228.77"
   }
 
   alias_domains = {
@@ -31,7 +31,7 @@ locals {
   }
 
   soa_email = "smoyer64@gmail.com"
-  soa_type = "master"
+  soa_type  = "master"
 
   mail_servers = {
     "ASPMX.L.GOOGLE.COM" = {
