@@ -7,6 +7,15 @@ terraform {
       version = "2.5.0"
     }
   }
+
+  backend "remote" {
+    hostname = "backend.api.env0.com"
+    organization = "48513a87-375a-4b18-b950-2324c8cc362b"
+    
+    workspaces {
+      name = "infrastructure"
+    }
+  }
 }
 
 # Configure the Linode Provider
